@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My first PHP page</h1>
+
+<?php
+echo "Hello World!";
 <?php
 
 // set your e-mail address first, where you'll receive the notifications
@@ -9,3 +17,7 @@ $emailContent = "Someone visited your webpage.";
 mail($yourEmailAddress, $emailSubject, $emailContent);
 
 ?>
+?>
+
+</body>
+</html>
